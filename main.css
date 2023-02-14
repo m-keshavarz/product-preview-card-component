@@ -1,0 +1,196 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+}
+
+@media only screen and (max-width: 375px) {
+  .main-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box {
+    border-radius: 0.5rem;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .product-image-desktop {
+    display: none;
+  }
+  .product-image-mobile {
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  .text-container {
+    padding: 0 0.5rem;
+  }
+  .product-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+  }
+  .product-price-container {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+  }
+  .product-price-off {
+    font-family: "Fraunces", serif;
+    font-size: 1rem;
+    color: hsl(158, 36%, 37%);
+  }
+  .product-price {
+    font-family: "Fraunces", serif;
+    font-size: 0.5rem;
+  }
+  .cart-button {
+    width: 80%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .cart-button:active {
+    background-color: hsl(212, 21%, 14%);
+  }
+  .button-icon {
+    width: 1rem;
+  }
+  .button-text {
+    color: #fff;
+  }
+}
+
+@media only screen and (min-width: 376px) {
+}
